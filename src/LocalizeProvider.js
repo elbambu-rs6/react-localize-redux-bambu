@@ -9,7 +9,7 @@ import {
   type Action,
   initialize as initializeAC,
   INITIALIZE,
-  InitializePayload
+  
 } from './localize';
 import {
   LocalizeContext,
@@ -25,7 +25,7 @@ type LocalizeProviderState = {
 export type LocalizeProviderProps = {
   store?: any,
   getState?: Function,
-  initialize?: InitializePayload,
+  initialize?: any,
   children: any
 };
 
